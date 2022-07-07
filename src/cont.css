@@ -1,0 +1,155 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.contactt{
+      position: relative;
+      min-height: 100vh;
+      padding: 50px 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      background-size: cover;
+    }
+    .contactt .contentt{
+      min-width: 800px;
+      text-align: center;
+    }
+    .contactt .contentt h2{
+      font-size: 36px;
+      font-weight: 500;
+      color: #fff;
+    
+    }
+    .contactt .contentt p{
+      font-weight: 300;
+      color: #fff;
+    }
+    .container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      
+    
+    }
+    .containerr .contactinfo{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+    .containerr .contactinfo .box{
+      position: relative;
+      padding: 20px,0;
+      display: flex;
+    }
+    .containerr .contactinfo .box .icon{
+      min-width: 60px;
+      height: 60px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 22px;
+    }
+    .containerr .contactinfo .box .text{
+      display: flex;
+      margin-left: 20px;
+      font-size: 16px;
+      color: #fff;
+      flex-direction: column;
+      font-weight: 300;
+    }
+    .containerr .contactinfo .box .text h3{
+      font-weight: 500;
+      color:#00bcd4;
+    }
+    .contactform{
+      width: 40%;
+      padding: 40px;
+      background: #fff;
+    }
+    .contactform h2{
+      font-size: 30px;
+      color: #333;
+      font-weight: 500;
+    }
+    .contactform .inputBox{
+      position: relative;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .contactform .inputBox input,
+    .contactform .inputBox textarea
+    {
+      width: 100%;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid #333;
+      outline: none;
+      resize: none;
+    }
+    .contactform .inputBox span{
+      position: absolute;
+      left:0;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      pointer-events: none;
+      transition: 0.5s;
+      color:#666;
+    
+    
+    }
+    .contactform .inputBox input:focus ~ span,
+    .contactform .inputBox input:valid ~ span
+    .contactform .inputBox input:focus ~ span,
+    .contactform .inputBox input:valid ~ span
+    {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+    }
+    .contactform .inputBox input[type="submit"]{
+      width: 100%;
+      background:#00bcd4;
+      color: #fff;
+      border:none ;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+    } */
+.conmain{
+  background-image: url('./bg_banner.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo{
+  width: 150%;
+  background-image: linear-gradient(#b672b5 20% ,#8b3c8b 30% ); 
+  padding-left: 0;
+  box-sizing: border-box;
+}
+.logo h1{
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  animation: aagepiche 3s linear infinite;
+  text-align: center;
+  color:'white';
+  }
+  @keyframes aagepiche{
+      from{ padding-left: 40px;}
+      to{ padding-right: 40px;}
+  }
+  
